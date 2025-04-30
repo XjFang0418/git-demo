@@ -1,5 +1,4 @@
-# 遍历1-1000的水仙数
-# 水仙数是指一个n位数，它的每个位上的数字的n次幂之和等于它本身。
+# 遍历1-1000的水仙数，水仙数是指一个n位数，它的每个位上的数字的n次幂之和等于它本身。
 
 # 定义一个函数，用于计算一个数字的每位数字的n次幂之和
 def is_narcissistic(num):
@@ -26,4 +25,3 @@ def is_narcissistic(num):
     sum_of_powers = sum(int(digit) ** n for digit in str_num)
     # 如果计算结果等于原始数字，则返回True，否则返回False
     return sum_of_powers == num
-# 遍历1-1000的每个数字
