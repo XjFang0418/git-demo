@@ -25,3 +25,4 @@ def is_narcissistic(num):
     sum_of_powers = sum(int(digit) ** n for digit in str_num)
     # 如果计算结果等于原始数字，则返回True，否则返回False
     return sum_of_powers == num
+######
