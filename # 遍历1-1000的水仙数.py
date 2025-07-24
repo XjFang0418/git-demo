@@ -26,3 +26,4 @@ def is_narcissistic(num):
     # 如果计算结果等于原始数字，则返回True，否则返回False
     return sum_of_powers == num
 ######
+###？》》》》》》》》
